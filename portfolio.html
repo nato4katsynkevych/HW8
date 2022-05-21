@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+		<link rel="stylesheet" href="./css/portfolio.min.css">
+	<title>Portfolio</title>
+</head>
+
+<body>
+	<header>
+		<div class="header container">
+			<nav class="nav">
+				<a href="" class="logo"><span>Web</span>Studio</a>
+				<ul class="list">
+					<li class="item"><a class="site-nav item " href="./index.html">Студия</a>
+					</li>
+					<li class="item"><a class="site-nav item current" href="./portfolio.html">Портфолио</a>
+					</li>
+					<li class="item"><a class="site-nav item" href="">Контакты</a>
+					</li>
+				</ul>
+			</nav>
+			<ul class="contacts">
+				<li class="cont-nav item">
+					<svg class="contact-icon" width="16" height="12">
+						<use href="./images/sprite.svg#mail"></use>
+					</svg>
+					<a href="mail.to:info@devstudio.com">info@devstudio.com</a>
+				</li>
+				<li class="cont-nav item">
+					<svg class="contact-icon" width="10" height="16">
+						<use href="./images/sprite.svg#phone"></use>
+					</svg><a href="tel:+380961111111"></a>+38 096 111 11 11
+				</li>
+
+			</ul>
+		</div>
+	</header>
+
+	<!-- <main>
+		<div class="container section">
+			<ul class="filters">
+				<li class="item">
+					<button type="button" class=" filter">Все</button>
+				</li>
+				<li class="item">
+					<button type="button" class="filter">Веб-сайты</button>
+				</li>
+				<li class="item">
+					<button type="button" class="filter">Приложения</button>
+				</li>
+				<li class="item">
+					<button type="button" class="filter">Дизайн</button>
+				</li>
+				<li class="item">
+					<button type="button" class="filter">Маркетинг</button>
+				</li>
+			</ul>
+			<ul class="card-set">
+				<li class="card">
+					<div class="overlay"><img src="./images/img1.jpg" alt="web-site" width="370px">
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quia
+							beatae earum omnis ex possimus assumenda quod velit, laudantium id est, provident deleniti
+							qui quibusdam.</p>
+					</div>
+					<div class="card-description">
+						<p class="card-title">Технокряк</p>
+						<p class="category">Веб-сайт</p>
+					</div>
+				</li>
+				<li class="card">
+					<div class="overlay"> <img src="./images/img2.jpg" alt="poster-basketball" width="370px">
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nulla
+							culpa inventore eius, saepe necessitatibus, maxime optio nostrum amet deleniti deserunt?
+							Nihil totam labore in.</p>
+					</div>
+
+					<div class="card-description">
+						<p class="card-title">Постер New Orlean vs Golden Star</p>
+						<p class="category">Дизайн</p>
+					</div>
+				</li>
+				<li class="card">
+					<div class="overlay"><img src="./images/img3.jpg" alt="restoran-seafood" width="370px">
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos,
+							cumque autem qui corporis nesciunt illo modi ullam ut unde, ab quasi facere corrupti nulla
+							consequatur.</p>
+					</div>
+
+					<div class="card-description">
+						<p class="card-title">Ресторан Seafood</p>
+						<p class="category">Приложение</p>
+					</div>
+				</li>
+				<li class="card">
+					<div class="overlay">
+						<img src="./images/img4.jpg" alt="project-prime" width="370px">
+						<p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero non
+							voluptatem sunt similique facere unde modi quas assumenda nemo. Dicta pariatur praesentium
+							voluptatum aspernatur adipisci!</p>
+					</div>
+
+					<div class="card-description">
+						<p class="card-title">Проект Prime</p>
+						<p class="category">Маркетинг</p>
+					</div>
+				</li>
+				<li class="card">
+					<div class="overlay">
+						<img src="./images/img5.jpg" alt="project-boxes" width="370px">
+						<p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique maxime
+							corrupti error, eos voluptate odio officia dolore voluptates. Cum nemo esse provident, odit
+							necessitatibus modi.</p>
+					</div>
+
+					<div class="card-description">
+						<p class="card-title">Проект Boxes</p>
+						<p class="category">Приложение</p>
+					</div>
+				</li>
+				<li class="card">
+					<div class="overlay">
+						<img src="./images/img6.jpg" alt="web-site" width="370px">
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ratione
+							soluta labore temporibus nihil voluptatibus amet obcaecati, porro nisi exercitationem
+							deleniti a facilis quibusdam voluptatem!</p>
+					</div>
+
+					<div class="card-description">
+						<p class="card-title">Inspiration has no Borders</p>
+						<p class="category">Веб-сайт</p>
+					</div>
+				</li>
+				<li class="card">
+					<div class="overlay">
+						<img src="./images/img7.jpg" alt="design-journal" width="370px">
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi excepturi
+							quis, sunt qui fuga iste, soluta, dicta debitis architecto veniam error doloremque sint
+							necessitatibus optio.</p>
+					</div>
+
+					<div class="card-description">
+						<p class="card-title">Издание Limited Edition</p>
+						<p class="category">Дизайн</p>
+					</div>
+				</li>
+				<li class="card">
+					<div class="overlay">
+						<img src="./images/img8.jpg" alt="project-lab" width="370px">
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti deleniti
+							est quasi dolores cupiditate, modi illum perspiciatis eum similique assumenda libero
+							possimus. Aut, iusto unde.</p>
+					</div>
+
+					<div class="card-description">
+						<p class="card-title">Проект LAB</p>
+						<p class="category">Маркетинг</p>
+					</div>
+				</li>
+				<li class="card">
+					<div class="overlay"><img src="./images/img9.jpg" alt="project-business" width="370px">
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+							repellendus, excepturi alias quis distinctio officia non similique beatae eaque
+							consequuntur? Ut labore facilis pariatur accusamus.</p>
+					</div>
+
+					<div class="card-description">
+						<p class="card-title">Growing Business</p>
+						<p class="category">Приложение</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</main> -->
+
+	<!-- <footer class="footer">
+		<div class="container">
+			<div class="column1">
+				<a href="" class="logo logo-footer"><span>Web</span>Studio</a>
+				<address>
+					<a class="address" href="">г. Киев, пр-т Леси Украинки, 26</a>
+					<a class="address" href="mail.to:info@example.com">info@example.com</a>
+					<a class="address" href="tel:+380991111111">+38 099 111 11 11</a>
+				</address>
+			</div>
+			<div class="column2">
+				<h3 class="footer-title">ПРИСОЕДИНЯЙТЕСЬ</h3>
+				<p></p>
+				<ul class="social-links">
+					<li class="social-link-item">
+						<a class="social-link-wrapper" href=""><svg class="social-link-icon ">
+								<use href="./images/sprite.svg#instagram"></use>
+							</svg></a>
+					</li>
+					<li class="social-link-item">
+						<a class="social-link-wrapper" href=""><svg class="social-link-icon ">
+								<use href="./images/sprite.svg#twitter"></use>
+							</svg></a>
+					</li>
+					<li class="social-link-item">
+						<a class="social-link-wrapper" href=""><svg class="social-link-icon">
+								<use href="./images/sprite.svg#facebook"></use>
+							</svg></a>
+					</li>
+					<li class="social-link-item">
+						<a class="social-link-wrapper" href=""><svg class="social-link-icon">
+								<use href="./images/sprite.svg#linkedin"></use>
+							</svg></a>
+					</li>
+				</ul>
+			</div>
+			<div class="column3" width="570px">
+				<div>
+					<h3 class="footer-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
+					<form action="" class="subscription">
+						<label for="email"></label>
+						<input type="text" name="email" placeholder="E-mail">
+						<button type="button" class="btn">Подписаться<svg class="icon-send">
+								<use href="./images/sprite.svg#send"></use>
+							</svg></button>
+					</form>
+
+				</div>
+
+			</div>
+		</div>
+	</footer> -->
+</body>
+
+</html>
