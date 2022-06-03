@@ -1,8 +1,15 @@
 .filters {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 
 	margin-bottom: 50px;
+}
+@media screen and (min-width:320px){
+	.filter{
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
 }
 
 .filter {

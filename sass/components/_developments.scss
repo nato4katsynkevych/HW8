@@ -1,4 +1,4 @@
-@media screen and (min-width: 20px) and (max-width:1199px) {
+@media screen and (min-width: 20px) and (max-width: 1200px) {
 	.developments {
 		margin-left: 100px;
 		display: none;
@@ -15,7 +15,6 @@
 
 	.developments-list .item {
 		display: block;
-
 		display: none;
 	}
 
@@ -28,6 +27,7 @@
 	.developments-list {
 		display: flex;
 		justify-content: space-between;
+		
 	}
 
 	.developments-list .item+.item {

@@ -6,7 +6,6 @@
 
 body {
 	background: $background-color;
-	background-color: aqua;
 	color: $primary-text-color;
 	font-family: Roboto, sans-serif;
 }
@@ -41,20 +40,32 @@ img {
 }
 
 .container {
-	// width: 1230px;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin-right: auto;
 	margin-left: auto;
 
 }
-@media screen and (min-width: 1200px){
-	.section {
-	padding-top: 94px;
-	padding-bottom: 94px;
+
+@media screen and (min-width: 1230px) {
+	.container {
+		width: 1230px;	
 	}
 
 }
+.section {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+	.section {
+		padding-top: 94px;
+		padding-bottom: 94px;
+	}
+
+}
+
 // .section {
 // 	padding-top: 94px;
 // 	padding-bottom: 94px;
